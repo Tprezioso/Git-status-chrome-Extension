@@ -1,8 +1,8 @@
 {
-    "name": "Github Status",
+    "name": "Status of Github",
     "version": "1.0",
     "manifest_version": 2,
-    "description": "Quick check on the status of Github",
+    "description": "Quick check of the status on Github",
     "icon": {"128": "icon128.png"},
     "content_scripts":[
         {
@@ -13,7 +13,7 @@
     "browser_action": {
         "default_icon": "icon.png",
         "default_popup": "popup.html",
-        "default_title": "Github Status"
+        "default_title": "Status of Github"
     },
     "permissions": ["activeTab"]
 }
